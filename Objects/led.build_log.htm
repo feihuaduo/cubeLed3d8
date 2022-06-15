@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: feihua,  , LIC=UJW8T-RBWYK-CVY1L-0VR1I-FA8NH-H8D82
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+E:\个人相关\狗蛋\西华师大\光立方\code\led.uvprojx
+Project File Date:  06/05/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(52): warning:  #1295-D: Deprecated declaration demo1 - give arg types
+  void demo1();
+main.c(53): warning:  #1295-D: Deprecated declaration demo2 - give arg types
+  void demo2();
+main.c: 2 warnings, 0 errors
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_tim.c...
+assembling startup_stm32f40_41xxx.s...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=13180 RO-data=424 RW-data=45108 ZI-data=1636  
+FromELF: creating hex file...
+".\Objects\led.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil::Device:StdPeriph Drivers:RCC:1.3.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: RCC Version: 1.3.0
+   * Component: GPIO Version: 1.3.0
+   * Component: TIM Version: 1.3.0
+   * Component: Startup Version: 1.3.1
+   * Component: Framework Version: 1.3.1
+
+<h2>Collection of Component include folders:</h2>
+  E:\个人相关\狗蛋\西华师大\光立方\code\RTE
+  E:\个人相关\狗蛋\西华师大\光立方\code\RTE\Device\STM32F407ZG
+  C:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+  C:\Program Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_rcc.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_gpio.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_tim.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_tim.h
+
+   * Component: Keil::Device:Startup:1.3.1
+      Source file:   Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Device\Include\stm32f4xx.h
+      Source file:   Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Device\Source\ARM\startup_stm32f40_41xxx.s
+      Source file:   Device\Source\system_stm32f4xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:1.3.1
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_conf.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_it.c
+      Include file:  Device\StdPeriph_Driver\templates\stm32f4xx_it.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+</pre>
+</body>
+</html>
